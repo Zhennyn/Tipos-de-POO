@@ -5,4 +5,8 @@ public class FacebookMessenger extends ServicoMensagemInstantanea {
 	public void receberMensagem() {
 		System.out.println("Recebendo mensagem pelo Facebook Messenger");
 	}
+	public void salvarHistoricoMensagem() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'salvarHistoricoMensagem'");
+	}
 }

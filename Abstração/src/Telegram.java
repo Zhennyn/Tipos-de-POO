@@ -5,4 +5,9 @@ public class Telegram extends ServicoMensagemInstantanea {
 	public void receberMensagem() {
 		System.out.println("Recebendo mensagem pelo Telegram");
 	}
+	
+	public void salvarHistoricoMensagem() {
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'salvarHistoricoMensagem'");
+	}
 }

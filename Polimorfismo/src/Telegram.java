@@ -12,4 +12,9 @@ public class Telegram extends ServicoMensagemInstantanea {
 	public void receberMensagem() {
 		System.out.println("Recebendo mensagem pelo Telegram");
 	}
+
+    @Override
+    public void salvarHistoricoMensagem() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
